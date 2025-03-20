@@ -1,4 +1,7 @@
-﻿public class Guardian
+﻿using System;
+
+[Serializable]
+public class Guardian
 {
     public string id;
 
