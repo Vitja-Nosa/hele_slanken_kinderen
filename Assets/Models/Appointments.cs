@@ -12,4 +12,6 @@ public class Appointment
     public DateTime Date;
 
     public string appointmentName;
+
+    public string description;
 }

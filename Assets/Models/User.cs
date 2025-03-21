@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 
 [Serializable]
-public class RegisterModel
+public class User
 {
     public string email;
     public string password;
