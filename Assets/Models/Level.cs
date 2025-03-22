@@ -1,4 +1,7 @@
-﻿public class Level
+﻿using System;
+
+[Serializable]
+public class Level
 {
     public int id;
 

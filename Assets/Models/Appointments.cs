@@ -1,4 +1,6 @@
 ﻿using System;
+
+[Serializable]
 public class Appointment
 {
     public string id;
@@ -10,4 +12,6 @@ public class Appointment
     public DateTime Date;
 
     public string appointmentName;
+
+    public string description;
 }
