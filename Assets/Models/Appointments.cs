@@ -9,7 +9,7 @@ public class Appointment
 
     public string doctorName;
 
-    public DateTime Date;
+    public string date;
 
     public string appointmentName;
 

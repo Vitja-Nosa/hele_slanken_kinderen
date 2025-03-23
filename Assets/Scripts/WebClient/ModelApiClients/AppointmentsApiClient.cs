@@ -10,7 +10,7 @@ public class AppointmentsApiClient : ApiClient
     public async Awaitable<IWebRequestReponse> ReadAllAppointments()
     {
         IWebRequestReponse webRequestResponse = await WebClient.instance.SendGetRequest(Route);
-        return ParseResponse<List<Appointment>>(webRequestResponse, true);
+        return ParseResponse<Appointment>(webRequestResponse, true);
     }
 
     public async Awaitable<IWebRequestReponse> CreateAppointment(Appointment appointment)
