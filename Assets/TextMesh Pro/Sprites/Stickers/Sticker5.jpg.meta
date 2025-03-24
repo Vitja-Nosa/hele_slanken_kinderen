@@ -1,10 +1,12 @@
 fileFormatVersion: 2
-guid: 04efa06b0bad83b4cbab2ceba4962ea0
+guid: 4e4bb42f7bc6b864f86407c2293e3d8e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8251182920697170411
-    second: hypo_1_0
+      213: 5628523484671011070
+    second: A simplistic drawing of a blood drop with a test strip. The design is
+      minimalistic, using clean lines and a limited color palette. The blood drop
+      is red, and . The background is plain to keep the focus on the elements__0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +115,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hypo_1_0
+      name: A simplistic drawing of a blood drop with a test strip. The design is
+        minimalistic, using clean lines and a limited color palette. The blood drop
+        is red, and . The background is plain to keep the focus on the elements__0
       rect:
         serializedVersion: 2
-        x: 282
-        y: 320
-        width: 636
-        height: 704
+        x: 0
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be9cce45627128270800000000000000
-      internalID: 8251182920697170411
+      spriteID: ef862c1c9488c1e40800000000000000
+      internalID: 5628523484671011070
       vertices: []
       indices: 
       edges: []
@@ -148,7 +152,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hypo_1_0: 8251182920697170411
+      A simplistic drawing of a blood drop with a test strip. The design is minimalistic, using clean lines and a limited color palette. The blood drop is red, and . The background is plain to keep the focus on the elements__0: 5628523484671011070
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -9,7 +9,7 @@ public class DiaryEntry
 
     public string content;
 
-    public int? stickerId;
+    public int stickerId;
 
-    public DateTime date;
+    public string date;
 }

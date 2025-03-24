@@ -1,10 +1,12 @@
 fileFormatVersion: 2
-guid: 04efa06b0bad83b4cbab2ceba4962ea0
+guid: 8ddaa0214bcfd6c40a36893a8b74bcb2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8251182920697170411
-    second: hypo_1_0
+      213: -3564371108792580827
+    second: A simple, cartoon-style illustration of a pancreas with a sad face. The
+      pancreas should have a slightly droopy or frowning expression, conveying .
+      The background should be plain white for a clean and minimalistic look__0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +115,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hypo_1_0
+      name: A simple, cartoon-style illustration of a pancreas with a sad face. The
+        pancreas should have a slightly droopy or frowning expression, conveying
+        . The background should be plain white for a clean and minimalistic look__0
       rect:
         serializedVersion: 2
-        x: 282
-        y: 320
-        width: 636
-        height: 704
+        x: 0
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be9cce45627128270800000000000000
-      internalID: 8251182920697170411
+      spriteID: 525c0c48c5fc88ec0800000000000000
+      internalID: -3564371108792580827
       vertices: []
       indices: 
       edges: []
@@ -148,7 +152,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hypo_1_0: 8251182920697170411
+      A simple, cartoon-style illustration of a pancreas with a sad face. The pancreas should have a slightly droopy or frowning expression, conveying . The background should be plain white for a clean and minimalistic look__0: -3564371108792580827
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
