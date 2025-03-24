@@ -1,4 +1,7 @@
-﻿public class Sticker
+﻿using System;
+
+[Serializable]
+public class Sticker
 {
     public int id;
 
