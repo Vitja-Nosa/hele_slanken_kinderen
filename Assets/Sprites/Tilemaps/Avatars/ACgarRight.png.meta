@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 04efa06b0bad83b4cbab2ceba4962ea0
+guid: 2c9a23ff17af6b1409facbc4446fcffd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8251182920697170411
-    second: hypo_1_0
+      213: 4552976500494950919
+    second: ACgarRight_0
+  - first:
+      213: 4040546031357632510
+    second: ACgarRight_1
+  - first:
+      213: -6438805695271869259
+    second: ACgarRight_2
+  - first:
+      213: 4098066387916411498
+    second: ACgarRight_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,23 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hypo_1_0
+      name: ACgarRight_0
       rect:
         serializedVersion: 2
-        x: 282
-        y: 320
-        width: 636
-        height: 704
+        x: 0
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be9cce45627128270800000000000000
-      internalID: 8251182920697170411
+      spriteID: 897488933029e90479b0a9fa57397694
+      internalID: 4552976500494950919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ACgarRight_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60f4f160ffac0b4e881836d7d8466fa
+      internalID: 4040546031357632510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ACgarRight_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0acb06e9ceac1419f49eb34f873884
+      internalID: -6438805695271869259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ACgarRight_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40bb725223559544ae6afac118aa948
+      internalID: 4098066387916411498
       vertices: []
       indices: 
       edges: []
@@ -138,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a86d8274b1de4a947b8e378ef4efd42c
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ACgarRight_0: 4552976500494950919
+      ACgarRight_1: 4040546031357632510
+      ACgarRight_2: -6438805695271869259
+      ACgarRight_3: 4098066387916411498
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
