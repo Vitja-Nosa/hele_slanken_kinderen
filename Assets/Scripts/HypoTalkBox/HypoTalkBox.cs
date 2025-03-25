@@ -11,18 +11,10 @@ public class HypoTalkBox : MonoBehaviour
 
     public Toggle VolumeSwitch;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        TriggerAnimation(audioClip, "Dit is een voorbeeld om te demonstreren hoe deze prefab werkt");
-    }
-
     public void TriggerAnimation(AudioClip audioClip, string speech)
     {
         hypoTalkAnimation.StartAnimation(audioClip);
         StartCoroutine(TypeText(speech, audioClip.length));
-    
-        
     }
 
     public void SwitchVolume(bool value) 
