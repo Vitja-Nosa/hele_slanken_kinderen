@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 04efa06b0bad83b4cbab2ceba4962ea0
+guid: 1bc5fec349582dd46868297194d1aa1d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8251182920697170411
-    second: hypo_1_0
+      213: 8040852891159955403
+    second: ArrowLeftpng_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hypo_1_0
+      name: ArrowLeftpng_0
       rect:
         serializedVersion: 2
-        x: 282
-        y: 320
-        width: 636
-        height: 704
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be9cce45627128270800000000000000
-      internalID: 8251182920697170411
+      spriteID: bc703cc2a19d69f60800000000000000
+      internalID: 8040852891159955403
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hypo_1_0: 8251182920697170411
+      ArrowLeftpng_0: 8040852891159955403
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
