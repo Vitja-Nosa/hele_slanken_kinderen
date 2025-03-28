@@ -10,7 +10,7 @@ public class DiaryEntryApiClient : ApiClient
     public async Awaitable<IWebRequestReponse> GetDiaryEntries()
     {
         IWebRequestReponse webRequestResponse = await WebClient.instance.SendGetRequest(Route);
-        return ParseResponse<List<DiaryEntry>>(webRequestResponse, true);
+        return ParseResponse<DiaryEntry>(webRequestResponse, true);
     }
 
     public async Awaitable<IWebRequestReponse> CreateDiaryEntry(DiaryEntry diaryEntry)

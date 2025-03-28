@@ -372,7 +372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3107679636839624521, guid: 7fb70b2194b59974193908cf6b65bca8, type: 3}
       propertyPath: token
-      value: test123
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjMxMzYwYWVjLWQwZGItNDg1My1hMDI2LTRjMjVkNzY2MDQwNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJ0ZXN0TmFtZUBlbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJ0ZXN0TmFtZUBlbWFpbC5jb20iLCJleHAiOjE3NDI3NDUwNTAsImlzcyI6Imh0dHBzOi8vYXZhbnNpY3QyMjMyMjM0LmF6dXJld2Vic2l0ZXMubmV0IiwiYXVkIjoiY2xpZW50In0.hL0Y-tlpa1-uiIyoOOjum9fPHoFU7Ntnwc0GsHmJfEM
       objectReference: {fileID: 0}
     - target: {fileID: 7827116202372484392, guid: 7fb70b2194b59974193908cf6b65bca8, type: 3}
       propertyPath: m_LocalPosition.x

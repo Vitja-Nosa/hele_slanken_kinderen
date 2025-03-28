@@ -12,6 +12,7 @@ public class AgendaManager : MonoBehaviour
     public RectTransform contentRect;
     public PopUpManager popUpManager;
     public AppointmentsApiClient appointmentsApiClient;
+    public SoundManager soundManager;
 
     private async void Start()
     {
@@ -64,12 +65,17 @@ public class AgendaManager : MonoBehaviour
                     Button button = nieuweAfspraak.GetComponentInChildren<Button>();
                     int index = i;
 
-                    button.onClick.AddListener(() => popUpManager.ToonAfspraak(
-                        afspraak.doctorName,
-                        formattedDate,
-                        afspraak.appointmentName,
-                        string.IsNullOrEmpty(afspraak.description) ? "Geen beschrijving beschikbaar." : afspraak.description
-                    ));
+                    button.onClick.AddListener(() =>
+                    {
+                        soundManager.PlayUIClick(); // Speel klikgeluid af
+                        popUpManager.ToonAfspraak(
+                            afspraak.doctorName,
+                            formattedDate,
+                            afspraak.appointmentName,
+                            string.IsNullOrEmpty(afspraak.description) ? "Geen beschrijving beschikbaar." : afspraak.description
+                        );
+                    });
+
                 }
 
                 break;
