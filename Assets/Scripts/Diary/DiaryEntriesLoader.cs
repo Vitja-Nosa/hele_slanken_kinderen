@@ -21,7 +21,7 @@ public class DiaryEntriesLoader : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     async void Start()
     {
-        sortedDiaryEntries = await RequestDiaryEntries();
+        await RequestDiaryEntries();
         if (sortedDiaryEntries.Count > 0)
         {
             LoadPage(sortedDiaryEntries.Count - 1); // Start at the last page
@@ -48,7 +48,7 @@ public class DiaryEntriesLoader : MonoBehaviour
     }
 
     // Request and sort all diary entries
-    public async Awaitable<List<List<DiaryEntry>>> RequestDiaryEntries()
+    public async Awaitable RequestDiaryEntries()
     {
         // Create WebRequest
         IWebRequestReponse response = await diaryEntryApiClient.GetDiaryEntries();
@@ -75,8 +75,23 @@ public class DiaryEntriesLoader : MonoBehaviour
             .Select(g => g.OrderBy(e => DateTime.Parse(e.date, CultureInfo.InvariantCulture)).ToList()) // Sort entries in each group by full datetime
             .ToList();
 
-        return sortedEntries;
+        // Chunk entries into pages of 6 entries
+        List<List<DiaryEntry>> paginatedEntries = new List<List<DiaryEntry>>();
+
+        foreach (var dailyEntries in sortedEntries)
+        {
+            // Split the daily entries into chunks of 6
+            for (int i = 0; i < dailyEntries.Count; i += 6)
+            {
+                var pageEntries = dailyEntries.Skip(i).Take(6).ToList();
+                paginatedEntries.Add(pageEntries);
+            }
+        }
+
+        sortedDiaryEntries = paginatedEntries;
+        LoadPage(currentPageIndex);
     }
+
 
     private void LoadPage(int pageIndex)
     {
@@ -87,6 +102,7 @@ public class DiaryEntriesLoader : MonoBehaviour
         List<DiaryEntry> entries = sortedDiaryEntries[pageIndex];
 
         // Use the separate method to format the date
+        // Display the date of the first entry in the current page
         DateDisplay.text = FormatDateInDutch(entries[0].date);
 
         // Fill cards with entries
@@ -106,6 +122,7 @@ public class DiaryEntriesLoader : MonoBehaviour
 
         UpdatePageButtons();
     }
+
 
     private void UpdatePageButtons()
     {
