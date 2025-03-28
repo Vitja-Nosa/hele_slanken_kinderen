@@ -87,7 +87,7 @@ public class TMP_SpriteDropdown : MonoBehaviour
             childId = "",
             content = Content.text,
             stickerId = dropdown.value,
-            date = DateTime.Now.ToString()
+            date = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss.fffZ")
         };
 
         await diaryEntryApiClient.CreateDiaryEntry(newEntry);

@@ -15438,6 +15438,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WebClient
       objectReference: {fileID: 0}
+    - target: {fileID: 3107679636839624521, guid: 7fb70b2194b59974193908cf6b65bca8, type: 3}
+      propertyPath: token
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3107679636839624521, guid: 7fb70b2194b59974193908cf6b65bca8, type: 3}
+      propertyPath: baseUrl
+      value: https://gaslapen.strangled.net
+      objectReference: {fileID: 0}
     - target: {fileID: 7827116202372484392, guid: 7fb70b2194b59974193908cf6b65bca8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 883.5864
