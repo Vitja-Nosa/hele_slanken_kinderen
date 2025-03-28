@@ -74,6 +74,7 @@ public class Level1Logic : LevelLogic
     {
         hypoTalkBox.TriggerAnimation(audioClips[1], "Hopelijk is nu duidelijk hoe inchecken zal gaan. Wat voor sticker zou je het inchecken bij de kinderarts willen geven?");
         await base.WaitForLengthOfAudio(audioClips[1]);
+        if(!LevelSetup.LoggedIn) await base.stickerPopup.AskingSticker();
     }
 
     private async void OnVideoFinished(VideoPlayer vp)
