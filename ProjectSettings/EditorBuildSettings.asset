@@ -11,6 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RegisterScene.unity
     guid: 7e0f9b5070795b34c9159e00162d2890
+  - enabled: 1
+    path: Assets/Scenes/TreatmentTypeScene.unity
+    guid: 7189d50afb2131e44904d2310f4cc8d8
+  - enabled: 1
+    path: Assets/Scenes/LevelSelectScene.unity
+    guid: 960fbf2dfd534a7449e6d37865f4729f
+  - enabled: 1
+    path: Assets/Scenes/OverworldScene.unity
+    guid: 23e2cf1cf71440f429a2c2f823da1abf
+  - enabled: 1
+    path: Assets/Scenes/GegevensScene.unity
+    guid: c20d8769dfe2a6c4897bd6403ff360f8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
