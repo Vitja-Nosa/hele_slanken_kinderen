@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9153516259834847555}
   - component: {fileID: 1300049883191168418}
   - component: {fileID: 6104592006301614138}
+  - component: {fileID: 7635477358077629426}
   m_Layer: 0
   m_Name: 'Ondersteuning '
   m_TagString: Untagged
@@ -121,7 +122,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 9153516259834847555}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7635477358077629426}
+        m_TargetAssemblyTypeName: LevelButton, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6104592006301614138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,6 +150,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &7635477358077629426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907960950965914875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5cf39eae2aeaa44b99b7edafd80465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level20
 --- !u!1 &3456067891424363423
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,6 +493,7 @@ GameObject:
   - component: {fileID: 7237086527825935486}
   - component: {fileID: 158407539827811578}
   - component: {fileID: 7710584906524800652}
+  - component: {fileID: 9020534216917899051}
   m_Layer: 0
   m_Name: 'Follow-up '
   m_TagString: Untagged
@@ -575,7 +602,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7237086527825935486}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9020534216917899051}
+        m_TargetAssemblyTypeName: LevelButton, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7710584906524800652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -591,6 +630,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &9020534216917899051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5037591939704510276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5cf39eae2aeaa44b99b7edafd80465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level18
 --- !u!1 &5370756921067328268
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +792,7 @@ GameObject:
   - component: {fileID: 994217902004875843}
   - component: {fileID: 2503533564936134022}
   - component: {fileID: 4158792500029592929}
+  - component: {fileID: 1885521578553473196}
   m_Layer: 0
   m_Name: Aanpassing
   m_TagString: Untagged
@@ -848,7 +901,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 994217902004875843}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1885521578553473196}
+        m_TargetAssemblyTypeName: LevelButton, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4158792500029592929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -864,6 +929,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &1885521578553473196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5405698431874819578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5cf39eae2aeaa44b99b7edafd80465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level19
 --- !u!1 &6170713673608304815
 GameObject:
   m_ObjectHideFlags: 0

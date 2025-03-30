@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 8051538644708832203}
   - component: {fileID: 5132049327905512891}
   - component: {fileID: 5647500548973673656}
+  - component: {fileID: 7290773433575252895}
   m_Layer: 0
   m_Name: Symptomen
   m_TagString: Untagged
@@ -257,7 +258,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8051538644708832203}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7290773433575252895}
+        m_TargetAssemblyTypeName: LevelButton, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5647500548973673656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,6 +286,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &7290773433575252895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5342659207046312474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5cf39eae2aeaa44b99b7edafd80465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level3
 --- !u!1 &6248173219738457748
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,6 +312,7 @@ GameObject:
   - component: {fileID: 5876157406785211797}
   - component: {fileID: 5832999470366238958}
   - component: {fileID: 3276123916348869446}
+  - component: {fileID: 8011580743175876975}
   m_Layer: 0
   m_Name: Onderzoek
   m_TagString: Untagged
@@ -394,7 +421,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5876157406785211797}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8011580743175876975}
+        m_TargetAssemblyTypeName: LevelButton, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3276123916348869446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -410,6 +449,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &8011580743175876975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248173219738457748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5cf39eae2aeaa44b99b7edafd80465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level4
 --- !u!1 &6395482603943949805
 GameObject:
   m_ObjectHideFlags: 0

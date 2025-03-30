@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 1703572412906250585}
   - component: {fileID: 8572015057018617547}
   - component: {fileID: 1694981168928970660}
+  - component: {fileID: 3056825912603995853}
   m_Layer: 0
   m_Name: 'Behandelingstraject starten  '
   m_TagString: Untagged
@@ -333,7 +334,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1703572412906250585}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3056825912603995853}
+        m_TargetAssemblyTypeName: LevelButton, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1694981168928970660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,6 +362,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &3056825912603995853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3483295066217683773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5cf39eae2aeaa44b99b7edafd80465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level8
 --- !u!1 &3702613673336099552
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,6 +524,7 @@ GameObject:
   - component: {fileID: 85863261141948712}
   - component: {fileID: 983813371304803276}
   - component: {fileID: 8088421647449098644}
+  - component: {fileID: 8530198486019955879}
   m_Layer: 0
   m_Name: 'Follow-up afspraak '
   m_TagString: Untagged
@@ -606,7 +633,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 85863261141948712}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8530198486019955879}
+        m_TargetAssemblyTypeName: LevelButton, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8088421647449098644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,6 +661,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &8530198486019955879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3755960003874658773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5cf39eae2aeaa44b99b7edafd80465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level11
 --- !u!1 &4451556662193832865
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,6 +687,7 @@ GameObject:
   - component: {fileID: 5469938409025574743}
   - component: {fileID: 1329221933305644943}
   - component: {fileID: 5205184689867831066}
+  - component: {fileID: 3030543531079886239}
   m_Layer: 0
   m_Name: 'Thuiszorg '
   m_TagString: Untagged
@@ -743,7 +796,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5469938409025574743}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3030543531079886239}
+        m_TargetAssemblyTypeName: LevelButton, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5205184689867831066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -759,6 +824,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &3030543531079886239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4451556662193832865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5cf39eae2aeaa44b99b7edafd80465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level10
 --- !u!1 &5242093909095400329
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,6 +850,7 @@ GameObject:
   - component: {fileID: 5401444437519784253}
   - component: {fileID: 375442372428672545}
   - component: {fileID: 6801584971648800318}
+  - component: {fileID: 2704497318414481688}
   m_Layer: 0
   m_Name: ' Diagnosebevestiging '
   m_TagString: Untagged
@@ -880,7 +959,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5401444437519784253}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2704497318414481688}
+        m_TargetAssemblyTypeName: LevelButton, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6801584971648800318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -896,6 +987,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &2704497318414481688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5242093909095400329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5cf39eae2aeaa44b99b7edafd80465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level7
 --- !u!1 &5259957273854150713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,6 +1696,7 @@ GameObject:
   - component: {fileID: 3883611705834744724}
   - component: {fileID: 2571118696270448190}
   - component: {fileID: 7604516938161239539}
+  - component: {fileID: 7413974631784029202}
   m_Layer: 0
   m_Name: ' Opleiding en instructies '
   m_TagString: Untagged
@@ -1700,7 +1805,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3883611705834744724}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7413974631784029202}
+        m_TargetAssemblyTypeName: LevelButton, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7604516938161239539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1716,3 +1833,16 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &7413974631784029202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9107920812895779699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5cf39eae2aeaa44b99b7edafd80465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level9

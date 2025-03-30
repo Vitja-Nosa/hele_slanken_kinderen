@@ -131,8 +131,8 @@ GameObject:
   - component: {fileID: 3013036}
   - component: {fileID: 3013035}
   - component: {fileID: 3013034}
-  - component: {fileID: 3013038}
   - component: {fileID: 3013037}
+  - component: {fileID: 3013038}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dee1e9f6d55f9849a1d69de80d639ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseUrl: https://avansict2232234.azurewebsites.net
+  baseUrl: https://gaslapen.strangled.net
   token: 
 --- !u!1 &225034883
 GameObject:
