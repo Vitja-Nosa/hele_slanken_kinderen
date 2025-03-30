@@ -154,7 +154,7 @@ MonoBehaviour:
   diaryEntryApiClient: {fileID: 943826172}
   childLevelCompletionApiClient: {fileID: 1875895067}
   StartVideoButton: {fileID: 795800460}
-  Video: {fileID: 32900000, guid: 4a67df04613b760428d6a2bfd3a4d5c4, type: 3}
+  Video: {fileID: 32900000, guid: 25858a99d2b5f074b9d82e604727e571, type: 3}
   hypoTalkBox: {fileID: 795800459}
   audioClips:
   - {fileID: 8300000, guid: 35c48aec4fdf40648a412e33b58fba28, type: 3}
