@@ -72,7 +72,7 @@ public class Level4Logic : LevelLogic
         // If user is logged in create a LevelCompletion and diary entry for this level
         if (IsLoggedIn)
         {
-            await base.EnterLevelCompletion(1, "Vandaag heb ik bekeken hoe 'Inchecken Bij De Kinderarts' er aan toe gaat!");
+            await base.EnterLevelCompletion(4, "Vandaag heb ik bekeken hoe 'Inchecken Bij De Kinderarts' er aan toe gaat!");
         }
 
         // method to leave the level
