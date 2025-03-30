@@ -8,7 +8,7 @@ public class WebClient : MonoBehaviour
     // Singleton instance
     public static WebClient instance { get; private set; }
 
-    public string baseUrl = "https://gaslapen.strangled.net";
+    public string baseUrl = "https://avansict2232234.azurewebsites.net";
     public string token;
 
     //Called when the script is initialized
