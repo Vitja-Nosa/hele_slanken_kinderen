@@ -6,6 +6,7 @@ public class Node : MonoBehaviour
 {
     public string levelName;
     public Transform transform;
+    public bool locked = false;
     public Vector2 position { get; private set; }
     public Dictionary<Node, List<Vector2>> paths { get; private set; }
 

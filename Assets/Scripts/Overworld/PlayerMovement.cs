@@ -2,14 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
     public Transform transform;
+    public float playerSpeed = 5f;
     private bool isMoving = false;
+    public NodeManager nodeManager;
 
-    public Node currentNode;
-
+    private void Start()
+    { 
+        Node node = nodeManager.currentNode;
+        transform.position = new Vector3(node.transform.position.x, node.transform.position.y);
+    }
     private void Update()
     {
         Vector2 direction = Vector2.zero;
@@ -32,11 +38,16 @@ public class PlayerMovement : MonoBehaviour
             if (isMoving) return;
             direction = Vector2.right;
         }
+        else if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (isMoving) return;
+            SceneManager.LoadScene(nodeManager.currentNode.levelName);
+        }
 
         if (direction != Vector2.zero)
         {
-            KeyValuePair<Node, List<Vector2>>? targetNode = currentNode.FindTargetNodeWithPath(direction);
-            if (targetNode.HasValue)
+            KeyValuePair<Node, List<Vector2>>? targetNode = nodeManager.currentNode.FindTargetNodeWithPath(direction);
+            if (targetNode.HasValue && !targetNode.Value.Key.locked)
             {
                 isMoving = true;
                 StartCoroutine(Move(targetNode.Value.Key, targetNode.Value.Value));
@@ -52,13 +63,14 @@ public class PlayerMovement : MonoBehaviour
 
             while (Vector3.Distance(transform.position, targetPos) > 0.01f)
             {
-                transform.position = Vector3.MoveTowards(transform.position, targetPos, 5f * Time.deltaTime);
+                transform.position = Vector3.MoveTowards(transform.position, targetPos, playerSpeed * Time.deltaTime);
                 yield return null; // Wait for the next frame
             }
 
         }
         transform.position = new Vector3(node.transform.position.x, node.transform.position.y); // Snap to final position
-        currentNode = node;
+        nodeManager.currentNode = node;
+        StatusManager.Instance.currentNodeIndex = nodeManager.allNodes.IndexOf(node);
         isMoving = false;
     }
 
