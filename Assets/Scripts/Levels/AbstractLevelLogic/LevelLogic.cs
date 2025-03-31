@@ -44,8 +44,8 @@ public abstract class LevelLogic : MonoBehaviour
             date = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss.fffZ")
         });
 
-        if (StatusManager.instance != null)
-            StatusManager.instance.CompleteLevel(levelId);
+        if (StatusManager.Instance != null)
+            StatusManager.Instance.CompleteLevel(levelId);
     }
     private async Awaitable PostDiaryEntry(DiaryEntry diaryEntry)
     {
