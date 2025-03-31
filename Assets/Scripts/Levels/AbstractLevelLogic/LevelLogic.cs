@@ -43,6 +43,9 @@ public abstract class LevelLogic : MonoBehaviour
             stickerId = await stickerPopup.AskingSticker(),
             date = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss.fffZ")
         });
+
+        if (StatusManager.instance != null)
+            StatusManager.instance.CompleteLevel(levelId);
     }
     private async Awaitable PostDiaryEntry(DiaryEntry diaryEntry)
     {
