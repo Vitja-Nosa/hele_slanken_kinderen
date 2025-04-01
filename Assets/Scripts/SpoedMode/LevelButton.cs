@@ -8,6 +8,7 @@ public class LevelButton : MonoBehaviour
     public void LoadLevel()
     {
         LevelSetup.LoggedIn = false;
+        Debug.Log(LevelSetup.LoggedIn);
         SceneManager.LoadScene(sceneToLoad);
     }
 }
