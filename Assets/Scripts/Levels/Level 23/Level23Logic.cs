@@ -101,8 +101,10 @@ public class Level23Logic : LevelLogic
             SetAllButtonsInteractable(false);
             finishButton.gameObject.SetActive(true);
         }
-
-        SetAllButtonsInteractable(true);
+        else
+        {
+            SetAllButtonsInteractable(true);
+        }
     }
 
     private async void OnFinishClicked()
