@@ -10,7 +10,7 @@ public class ChildLevelCompletionApiClient : ApiClient
     public async Awaitable<IWebRequestReponse> GetAllLevelCompletions()
     {
         IWebRequestReponse webRequestResponse = await WebClient.instance.SendGetRequest(Route);
-        return ParseResponse<List<ChildLevelCompletion>>(webRequestResponse, true);
+        return ParseResponse<ChildLevelCompletion>(webRequestResponse, true);
     }
 
     public async Awaitable<IWebRequestReponse> GetLevelCompletion(int levelId)
