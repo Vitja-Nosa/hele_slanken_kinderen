@@ -371,10 +371,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0172c5f5ca5c2d247a2596e6b7f01a2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emailInput: {fileID: 0}
-  passwordInput: {fileID: 0}
-  loginButton: {fileID: 0}
+  emailInput: {fileID: 570752997}
+  passwordInput: {fileID: 1851206276}
+  loginButton: {fileID: 1069291075}
   feedbackText: {fileID: 0}
+  userApiClient: {fileID: 2033618209}
 --- !u!1001 &125936789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -389,7 +390,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3107679636839624521, guid: 7fb70b2194b59974193908cf6b65bca8, type: 3}
       propertyPath: token
-      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjMxMzYwYWVjLWQwZGItNDg1My1hMDI2LTRjMjVkNzY2MDQwNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJ0ZXN0TmFtZUBlbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJ0ZXN0TmFtZUBlbWFpbC5jb20iLCJleHAiOjE3NDI3NDUwNTAsImlzcyI6Imh0dHBzOi8vYXZhbnNpY3QyMjMyMjM0LmF6dXJld2Vic2l0ZXMubmV0IiwiYXVkIjoiY2xpZW50In0.hL0Y-tlpa1-uiIyoOOjum9fPHoFU7Ntnwc0GsHmJfEM
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3107679636839624521, guid: 7fb70b2194b59974193908cf6b65bca8, type: 3}
+      propertyPath: baseUrl
+      value: https://gaslapen.strangled.net
       objectReference: {fileID: 0}
     - target: {fileID: 7827116202372484392, guid: 7fb70b2194b59974193908cf6b65bca8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -719,7 +724,6 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -802,22 +806,6 @@ Transform:
   - {fileID: 94241275}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0172c5f5ca5c2d247a2596e6b7f01a2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  emailInput: {fileID: 0}
-  passwordInput: {fileID: 0}
-  loginButton: {fileID: 0}
-  feedbackText: {fileID: 0}
 --- !u!1 &570752995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,8 +1241,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -1516,8 +1504,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -2950,7 +2938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 5, y: -5}
-  m_UseGraphicAlpha: 1
+  m_UseGraphicAlpha: 0
 --- !u!114 &2018087701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2964,6 +2952,74 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: TreatmentTypeScene
+--- !u!1001 &2033618208
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1170234063787304634, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+      propertyPath: m_Name
+      value: UserApiClient
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099741357503987454, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099741357503987454, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099741357503987454, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099741357503987454, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099741357503987454, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099741357503987454, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099741357503987454, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099741357503987454, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099741357503987454, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099741357503987454, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+--- !u!114 &2033618209 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2682021805363706356, guid: 72ff25cb15e71b34cac97b041cd8dc4b, type: 3}
+  m_PrefabInstance: {fileID: 2033618208}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df90f2fe57a163d49aaae2a1cb07ff1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2971,3 +3027,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1909352232}
   - {fileID: 125936789}
+  - {fileID: 2033618208}
