@@ -7,5 +7,10 @@ public class BackButton : MonoBehaviour
     {
         SceneManager.LoadScene("TreatmentTypeScene");
     }
+
+    public void GoBackToLogin()
+    {
+        SceneManager.LoadScene("LoginScene");
+    }
 }
 

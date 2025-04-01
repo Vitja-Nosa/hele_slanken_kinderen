@@ -13,6 +13,12 @@ public class RegisterManager : MonoBehaviour
     public Button registerButton;
     public UserApiClient userApiClient;
 
+    private void Start()
+    {
+        registerButton.onClick.AddListener(OnRegisterClicked);
+    }
+
+
     public async void OnRegisterClicked()
     {
         string email = emailInput.text;
@@ -45,6 +51,7 @@ public class RegisterManager : MonoBehaviour
 
             LevelSetup.LoggedIn = true;
             await userApiClient.Login(registerData);
+            RegisterEmail.email = email;
             //Niet alles ingevuld : stuur naar Gegevens invulscherm
             SceneManager.LoadScene("GegevensScene");
         }
@@ -52,6 +59,11 @@ public class RegisterManager : MonoBehaviour
         {
             Debug.LogError("Login fout: " + error.ErrorMessage);
         }
+    }
+
+    public void ToLogin()
+    {
+        SceneManager.LoadScene("LoginScene");
     }
 
 }

@@ -46,10 +46,15 @@ public class LoginManager : MonoBehaviour
         else if (response is WebRequestError error)
         {
             Debug.LogError("Login fout: " + error.ErrorMessage);
-            feedbackText.text = "Fout bij inloggen: " + error.ErrorMessage;
+            feedbackText.text = "Fout bij inloggen.";
         }
 
 
+    }
+
+    public void ToRegister()
+    {
+        SceneManager.LoadScene("RegisterScene");
     }
 
 }
