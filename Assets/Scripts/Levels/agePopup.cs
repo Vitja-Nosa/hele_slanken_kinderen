@@ -12,7 +12,7 @@ public class AgePopup : MonoBehaviour
     private int enteredAge;
     private bool ageSubmitted = false;
 
-    public void Start()
+    public void Awake()
     {
         submitButton.onClick.AddListener(OnSubmitAge);
         PopUp.SetActive(false); // Hide popup initially

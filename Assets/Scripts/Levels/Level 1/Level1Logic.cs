@@ -38,7 +38,7 @@ public class Level1Logic : LevelLogic
     private async void StartLevelLoggedIn()
     {
         //Select right video by childs age
-        if (child.dateOfBirth > DateTime.Now.AddYears(-7))
+        if (Convert.ToDateTime(child.dateOfBirth) > DateTime.Now.AddYears(-7))
             base.videoPlayer.clip = Videos[0];
         else
             base.videoPlayer.clip = Videos[1];

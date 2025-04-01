@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine.UI;
 using System.Text;
 using System;
+using UnityEngine.SceneManagement;
 
 public class RegisterManager : MonoBehaviour
 {
@@ -10,13 +11,15 @@ public class RegisterManager : MonoBehaviour
     public TMP_InputField passwordInput;
     public TMP_InputField repeatPasswordInput;
     public Button registerButton;
+    public UserApiClient userApiClient;
 
     private void Start()
     {
         registerButton.onClick.AddListener(OnRegisterClicked);
     }
 
-    private async void OnRegisterClicked()
+
+    public async void OnRegisterClicked()
     {
         string email = emailInput.text;
         string password = passwordInput.text;
@@ -34,34 +37,33 @@ public class RegisterManager : MonoBehaviour
             return;
         }
 
-        var registerData = new RegisterData
+        var registerData = new User
         {
-            Email = email,
-            Password = password,
-            ConfirmPassword = repeatPassword
+            email = email,
+            password = password
+            
         };
 
-        string json = JsonUtility.ToJson(registerData);
+        var result = await userApiClient.Register(registerData);
 
-        var response = await WebClient.instance.SendPostRequest("/auth/register", json);
-
-        if (response is WebRequestData<string> success)
+        if (result is WebRequestData<string> success)
         {
-            Debug.Log("Registratie gelukt: " + success.Data);
-            // Hier kun je doorgaan naar de login scene bijvoorbeeld
-            // SceneManager.LoadScene("LoginScene");
+
+            LevelSetup.LoggedIn = true;
+            await userApiClient.Login(registerData);
+            RegisterEmail.email = email;
+            //Niet alles ingevuld : stuur naar Gegevens invulscherm
+            SceneManager.LoadScene("GegevensScene");
         }
-        else if (response is WebRequestError error)
+        else if (result is WebRequestError error)
         {
-            Debug.LogError("Fout bij registreren: " + error.ErrorMessage);
+            Debug.LogError("Login fout: " + error.ErrorMessage);
         }
     }
 
-    [Serializable]
-    public class RegisterData
+    public void ToLogin()
     {
-        public string Email;
-        public string Password;
-        public string ConfirmPassword;
+        SceneManager.LoadScene("LoginScene");
     }
+
 }
