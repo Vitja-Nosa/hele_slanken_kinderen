@@ -13,6 +13,7 @@ public class NodeManager : MonoBehaviour
     public List<Node> allNodes;
     public ChildLevelCompletionApiClient childLevelCompletionApiClient;
     public ChildApiClient childApiClient;
+    public PlayerMovement playerMovement;
 
     public TileManager tileManager;
 
@@ -20,23 +21,24 @@ public class NodeManager : MonoBehaviour
     {
         if (StatusManager.Instance.completedLevels.Count == 0)
         {
-            //await SetChildTreatmentPath();
+            await SetChildTreatmentPath();
             Debug.Log(StatusManager.Instance.treatmentPath);
         }
         ConnectNodes();
         Debug.Log(allNodes.Count);
-        currentNode = allNodes[StatusManager.Instance.currentNodeIndex];
         //alleen eerste keer inladen
         if (StatusManager.Instance.completedLevels.Count == 0)
         {
-            //await GetCompletedLevels();
-            StatusManager.Instance.CompleteLevel(new List<int> { 1, 2, 3, 4 });
+            await GetCompletedLevels();
         }
-        foreach(int completedLevel in StatusManager.Instance.completedLevels)
+        foreach (int completedLevel in StatusManager.Instance.completedLevels)
         {
             allNodes[completedLevel].locked = false;
             tileManager.NodeCompleted(allNodes[completedLevel - 1]);
         }
+        currentNode = allNodes[StatusManager.Instance.currentNodeIndex];
+        playerMovement.SetupPlayer();
+        
     }
 
     public List<Vector2> MakePath(List<KeyValuePair<Vector2, int>> template)
@@ -194,9 +196,7 @@ public class NodeManager : MonoBehaviour
                 new KeyValuePair<Vector2, int>( Vector2.up, 11 ),
                 new KeyValuePair<Vector2, int>( Vector2.right, 3),
             }));
-
             // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ////////
-
         }
 
         // Connection level 18 -> level 19
@@ -241,6 +241,11 @@ public class NodeManager : MonoBehaviour
             new KeyValuePair<Vector2, int>( Vector2.right, 4 ),
             new KeyValuePair<Vector2, int>( Vector2.up, 6 ),
         }));
+
+        //if (StatusManager.Instance.treatmentPath == "B")
+        //    allNodes.RemoveRange(6, 5);
+        //else if (StatusManager.Instance.treatmentPath == "A")
+        //    allNodes.RemoveRange(11, 6);
     }
 
     public async Task GetCompletedLevels()
@@ -257,7 +262,6 @@ public class NodeManager : MonoBehaviour
             StatusManager.Instance.CompleteLevel(completedLevels);
 
             // TODO: verbeter dit, beide statements in 1 method voor hergebruik
-            currentNode = allNodes[completedLevels.Max()];
             StatusManager.Instance.currentNodeIndex = completedLevels.Max();
             // ------------
         }

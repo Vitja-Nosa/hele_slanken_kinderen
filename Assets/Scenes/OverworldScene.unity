@@ -177,7 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level18
   transform: {fileID: 76907917}
-  locked: 1
+  _locked: 1
 --- !u!212 &76907919
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level2
   transform: {fileID: 189165497}
-  locked: 1
+  _locked: 1
 --- !u!1 &202884833
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level14
   transform: {fileID: 202884834}
-  locked: 1
+  _locked: 1
 --- !u!212 &202884836
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -601,7 +601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level9
   transform: {fileID: 211772944}
-  locked: 1
+  _locked: 1
 --- !u!212 &211772946
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22040,7 +22040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level17
   transform: {fileID: 404541842}
-  locked: 1
+  _locked: 1
 --- !u!212 &404541844
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22143,7 +22143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level13
   transform: {fileID: 440346611}
-  locked: 1
+  _locked: 1
 --- !u!212 &440346613
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22260,7 +22260,6 @@ GameObject:
   - component: {fileID: 531943132}
   - component: {fileID: 531943135}
   - component: {fileID: 531943134}
-  - component: {fileID: 531943136}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -22351,7 +22350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transform: {fileID: 531943133}
-  playerSpeed: 20
+  playerSpeed: 10
   nodeManager: {fileID: 870390204}
 --- !u!114 &531943135
 MonoBehaviour:
@@ -22383,28 +22382,6 @@ MonoBehaviour:
   m_DefaultActionMap: InGame
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!95 &531943136
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 531943131}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &583439440
 GameObject:
   m_ObjectHideFlags: 0
@@ -109055,7 +109032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level15
   transform: {fileID: 604413449}
-  locked: 1
+  _locked: 1
 --- !u!212 &604413451
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -109158,7 +109135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level23
   transform: {fileID: 630241392}
-  locked: 1
+  _locked: 1
 --- !u!212 &630241394
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -109395,7 +109372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level6
   transform: {fileID: 850562434}
-  locked: 1
+  _locked: 1
 --- !u!212 &850562436
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -109508,6 +109485,7 @@ MonoBehaviour:
   - {fileID: 1928928940}
   childLevelCompletionApiClient: {fileID: 99933505}
   childApiClient: {fileID: 74049613}
+  playerMovement: {fileID: 531943134}
   tileManager: {fileID: 1445253141}
 --- !u!4 &870390205
 Transform:
@@ -109784,7 +109762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level7
   transform: {fileID: 1000531877}
-  locked: 1
+  _locked: 1
 --- !u!212 &1000531879
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -110662,7 +110640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level5
   transform: {fileID: 1164585671}
-  locked: 1
+  _locked: 1
 --- !u!212 &1164585673
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -110765,7 +110743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level21
   transform: {fileID: 1167798735}
-  locked: 1
+  _locked: 1
 --- !u!212 &1167798737
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -110868,7 +110846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level16
   transform: {fileID: 1177295673}
-  locked: 1
+  _locked: 1
 --- !u!212 &1177295675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -110971,7 +110949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level20
   transform: {fileID: 1209196446}
-  locked: 1
+  _locked: 1
 --- !u!212 &1209196448
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -111299,7 +111277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level12
   transform: {fileID: 1364462367}
-  locked: 1
+  _locked: 1
 --- !u!212 &1364462369
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -111365,6 +111343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1381904512}
   - component: {fileID: 1381904513}
+  - component: {fileID: 1381904514}
   m_Layer: 0
   m_Name: Level1
   m_TagString: Untagged
@@ -111401,7 +111380,62 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level1
   transform: {fileID: 1381904512}
-  locked: 0
+  _locked: 0
+--- !u!212 &1381904514
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381904511}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 522
+  m_Sprite: {fileID: 7880016887814026322, guid: 0f1ae9498f1f03240a0151d88b69a444, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.66, y: 5.12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1417138639
 GameObject:
   m_ObjectHideFlags: 0
@@ -114892,7 +114926,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 5148848007095864043, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
       - {fileID: -149634680, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 13, y: 14, z: 0}
@@ -114973,7 +115007,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 5148848007095864043, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
       - {fileID: -149634680, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 49, y: 24, z: 0}
@@ -115617,7 +115651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3107679636839624521, guid: 7fb70b2194b59974193908cf6b65bca8, type: 3}
       propertyPath: token
-      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ijg4ODY0Mjc2LTQxYTYtNDZmNS1iNjQ1LTMwOTYzNjlhNzA5NCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJ0ZXN0TmFtZUBlbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJ0ZXN0TmFtZUBlbWFpbC5jb20iLCJleHAiOjE3NDM0OTk0NjgsImlzcyI6Imh0dHBzOi8vYXZhbnNpY3QyMjMyMjM0LmF6dXJld2Vic2l0ZXMubmV0IiwiYXVkIjoiY2xpZW50In0.Pr7zHWJEiCeCcT9rfmMf-tvN673KkzkLhyptEYTg62o
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3107679636839624521, guid: 7fb70b2194b59974193908cf6b65bca8, type: 3}
       propertyPath: baseUrl
@@ -115761,7 +115795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level11
   transform: {fileID: 1446123168}
-  locked: 1
+  _locked: 1
 --- !u!212 &1446123170
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -115864,7 +115898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level22
   transform: {fileID: 1467448806}
-  locked: 1
+  _locked: 1
 --- !u!212 &1467448808
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -116103,7 +116137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level19
   transform: {fileID: 1751205169}
-  locked: 1
+  _locked: 1
 --- !u!212 &1751205171
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -116191,7 +116225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level4
   transform: {fileID: 1822064401}
-  locked: 1
+  _locked: 1
 --- !u!4 &1822064401
 Transform:
   m_ObjectHideFlags: 0
@@ -116309,7 +116343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level10
   transform: {fileID: 1870453926}
-  locked: 1
+  _locked: 1
 --- !u!212 &1870453928
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -116397,7 +116431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level24
   transform: {fileID: 1928928941}
-  locked: 1
+  _locked: 1
 --- !u!4 &1928928941
 Transform:
   m_ObjectHideFlags: 0
@@ -116500,7 +116534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level3
   transform: {fileID: 1994923405}
-  locked: 1
+  _locked: 1
 --- !u!4 &1994923405
 Transform:
   m_ObjectHideFlags: 0
@@ -116693,7 +116727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level8
   transform: {fileID: 2103607418}
-  locked: 1
+  _locked: 1
 --- !u!212 &2103607420
 SpriteRenderer:
   m_ObjectHideFlags: 0
