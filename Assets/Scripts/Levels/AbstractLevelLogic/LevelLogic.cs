@@ -68,8 +68,27 @@ public abstract class LevelLogic : MonoBehaviour
     protected void LeaveLevel()
     {
         if (LevelSetup.LoggedIn)
+        {
+            SceneManager.sceneLoaded += OnSceneLoaded;
             SceneManager.LoadScene("OverworldScene");
+        }
         else
             SceneManager.LoadScene("LevelSelectScene");
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Scene activeScene = SceneManager.GetActiveScene();
+        GameObject[] rootObjects = activeScene.GetRootGameObjects();
+
+        foreach (GameObject obj in rootObjects)
+        {
+            if (obj.name == "LevelCompleted")
+            {
+                obj.SetActive(true);
+                break;
+            }
+        }
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }
