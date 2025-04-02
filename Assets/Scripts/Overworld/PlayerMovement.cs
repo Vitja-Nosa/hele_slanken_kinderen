@@ -12,11 +12,13 @@ public class PlayerMovement : MonoBehaviour
     public NodeManager nodeManager;
     public bool isInMenu = false;
 
-    private void Start()
-    { 
+    public void SetupPlayer()
+    {
         Node node = nodeManager.currentNode;
         transform.position = new Vector3(node.transform.position.x, node.transform.position.y);
+        Debug.Log(nodeManager.currentNode.levelName);
     }
+
     private void Update()
     {
         if (isInMenu) return;
