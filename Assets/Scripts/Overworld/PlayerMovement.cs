@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float playerSpeed = 5f;
     private bool isMoving = false;
     public NodeManager nodeManager;
+    public bool isInMenu = false;
 
     public void SetupPlayer()
     {
@@ -20,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (isInMenu) return;
         Vector2 direction = Vector2.zero;
         if (Input.GetKeyDown(KeyCode.W))
         {
