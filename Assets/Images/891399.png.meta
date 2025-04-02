@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 2c9a23ff17af6b1409facbc4446fcffd
+guid: 0f1ae9498f1f03240a0151d88b69a444
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4552976500494950919
-    second: ACgarRight_0
-  - first:
-      213: 4040546031357632510
-    second: ACgarRight_1
-  - first:
-      213: -6438805695271869259
-    second: ACgarRight_2
-  - first:
-      213: 4098066387916411498
-    second: ACgarRight_3
+      213: 7880016887814026322
+    second: 891399_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,111 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ACgarRight_0
+      name: 891399_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 24
-        width: 24
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 897488933029e90479b0a9fa57397694
-      internalID: 4552976500494950919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ACgarRight_1
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 24
-        width: 24
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d60f4f160ffac0b4e881836d7d8466fa
-      internalID: 4040546031357632510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ACgarRight_2
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 73
         y: 0
-        width: 24
-        height: 24
+        width: 366
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bd0acb06e9ceac1419f49eb34f873884
-      internalID: -6438805695271869259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ACgarRight_3
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 0
-        width: 24
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d40bb725223559544ae6afac118aa948
-      internalID: 4098066387916411498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ACgarRight_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a070ca1503f430489f104fa1ec28e16
-      internalID: -2097295235
+      spriteID: 254fb3efb917b5d60800000000000000
+      internalID: 7880016887814026322
       vertices: []
       indices: 
       edges: []
@@ -235,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a86d8274b1de4a947b8e378ef4efd42c
+    spriteID: 226018670aa3c694485e1fa5ffd8ba8d
     internalID: 0
     vertices: []
     indices: 
@@ -245,11 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ACgarRight_0: 4552976500494950919
-      ACgarRight_1: 4040546031357632510
-      ACgarRight_2: -6438805695271869259
-      ACgarRight_3: 4098066387916411498
-      ACgarRight_4: -2097295235
+      891399_0: 7880016887814026322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

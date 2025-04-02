@@ -9,6 +9,7 @@ public class StatusManager : MonoBehaviour
     public bool displayCompleted = false;
     public List<int> completedLevels = new();
     public int currentNodeIndex = 0;
+    public string? treatmentPath;
 
     void Awake()
     {

@@ -11,11 +11,13 @@ public class PlayerMovement : MonoBehaviour
     private bool isMoving = false;
     public NodeManager nodeManager;
 
-    private void Start()
-    { 
+    public void SetupPlayer()
+    {
         Node node = nodeManager.currentNode;
         transform.position = new Vector3(node.transform.position.x, node.transform.position.y);
+        Debug.Log(nodeManager.currentNode.levelName);
     }
+
     private void Update()
     {
         Vector2 direction = Vector2.zero;
