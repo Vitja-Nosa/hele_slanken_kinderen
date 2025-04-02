@@ -9,13 +9,13 @@ public class Child
 
     public string lastName;
 
-    public DateTime dateOfBirth;
+    public string dateOfBirth;
 
     public string? doctorName;
 
-    public DateTime creationDate;
+    public string creationDate;
 
-    public char treatmentPath;
+    public string treatmentPath;
 
     public int? characterId;
 }

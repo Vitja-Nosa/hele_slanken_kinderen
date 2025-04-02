@@ -6,7 +6,6 @@ public class LevelCompletedPopUp : MonoBehaviour
     private AudioSource audioSource;
     public AudioClip completedSound;
 
-
     private void Start()
     {
         if (StatusManager.Instance.displayCompleted)

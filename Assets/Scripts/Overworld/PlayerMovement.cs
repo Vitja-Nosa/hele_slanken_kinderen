@@ -10,14 +10,18 @@ public class PlayerMovement : MonoBehaviour
     public float playerSpeed = 5f;
     private bool isMoving = false;
     public NodeManager nodeManager;
+    public bool isInMenu = false;
 
-    private void Start()
-    { 
+    public void SetupPlayer()
+    {
         Node node = nodeManager.currentNode;
         transform.position = new Vector3(node.transform.position.x, node.transform.position.y);
+        Debug.Log(nodeManager.currentNode.levelName);
     }
+
     private void Update()
     {
+        if (isInMenu) return;
         Vector2 direction = Vector2.zero;
         if (Input.GetKeyDown(KeyCode.W))
         {

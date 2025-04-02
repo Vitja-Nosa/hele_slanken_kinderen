@@ -1,0 +1,1690 @@
+fileFormatVersion: 2
+guid: a87749ff17fd45b428385e8f76565aa8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3417132080247621443
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_0"
+  - first:
+      213: -6972993446513822640
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_1"
+  - first:
+      213: -6441218486896680230
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_2"
+  - first:
+      213: 556769680486410391
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_3"
+  - first:
+      213: 8170441246329757639
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_4"
+  - first:
+      213: 3206060063549717491
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_5"
+  - first:
+      213: 7310917209348816838
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_6"
+  - first:
+      213: -5830537679998997591
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_7"
+  - first:
+      213: 3486910816087200478
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_8"
+  - first:
+      213: 6185014412737748000
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_9"
+  - first:
+      213: -2235479684563862116
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_10"
+  - first:
+      213: 5916346377904060594
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_11"
+  - first:
+      213: 5840304989588381887
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_12"
+  - first:
+      213: -586048800851966267
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_13"
+  - first:
+      213: -4847552505547997289
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_14"
+  - first:
+      213: -3418430372070275688
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_15"
+  - first:
+      213: -2114736843597757940
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_16"
+  - first:
+      213: -7909407003955936093
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_17"
+  - first:
+      213: -1748119304519503446
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_18"
+  - first:
+      213: 1683144620839317490
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_19"
+  - first:
+      213: -2405817659698012160
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_20"
+  - first:
+      213: -3043665301719202748
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_21"
+  - first:
+      213: -8956749729814672645
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_22"
+  - first:
+      213: -8947739881797170352
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_23"
+  - first:
+      213: 1149586166182385893
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_24"
+  - first:
+      213: 1095904153845179437
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_25"
+  - first:
+      213: -5570209043734996724
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_26"
+  - first:
+      213: 3149477720711037456
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_27"
+  - first:
+      213: 5364752971367267019
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_28"
+  - first:
+      213: 1935482531945499190
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_29"
+  - first:
+      213: 668270006818249384
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_30"
+  - first:
+      213: 8921428790962921695
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_31"
+  - first:
+      213: 3020007861406099225
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_32"
+  - first:
+      213: 4172978451249853899
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_33"
+  - first:
+      213: -6258149235530023922
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_34"
+  - first:
+      213: 6784312693068215450
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_35"
+  - first:
+      213: 4256078652158956194
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_36"
+  - first:
+      213: 6593771594814575278
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_37"
+  - first:
+      213: 1033012854317774811
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_38"
+  - first:
+      213: 2863420289716623303
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_39"
+  - first:
+      213: -5795950668192050820
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_40"
+  - first:
+      213: -8183076886874121119
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_41"
+  - first:
+      213: -7724490558387483636
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_42"
+  - first:
+      213: 3935091321677716408
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_43"
+  - first:
+      213: -2911397873701161488
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_44"
+  - first:
+      213: -6480947123902941295
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_45"
+  - first:
+      213: 6064596649439977771
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_46"
+  - first:
+      213: 1434143666845583412
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_47"
+  - first:
+      213: -6141910301435787070
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_48"
+  - first:
+      213: 3738181727815031707
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_49"
+  - first:
+      213: -4363398983067809729
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_50"
+  - first:
+      213: -9094659152240848146
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_51"
+  - first:
+      213: 1969142922921802058
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_52"
+  - first:
+      213: 2998898572844853286
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_53"
+  - first:
+      213: 8720577611689055895
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_54"
+  - first:
+      213: 53362979578730223
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_55"
+  - first:
+      213: 6660204009688745163
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_56"
+  - first:
+      213: -7991108810594629961
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_57"
+  - first:
+      213: 2216708544236407679
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_58"
+  - first:
+      213: -2457665939389777175
+    second: "\u2014Pngtree\u2014computer keyboard transparent_8957497_59"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_0"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 627
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8bf3e4a78e390d0800000000000000
+      internalID: -3417132080247621443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_1"
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 627
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054ba67a763fa3f90800000000000000
+      internalID: -6972993446513822640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_2"
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 627
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad228d7c9e13c96a0800000000000000
+      internalID: -6441218486896680230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_3"
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 627
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798a913131b0ab700800000000000000
+      internalID: 556769680486410391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_4"
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 627
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf5fa1560d336170800000000000000
+      internalID: 8170441246329757639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_5"
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 627
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb727034a63e7c20800000000000000
+      internalID: 3206060063549717491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_6"
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 627
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfb68d8778957560800000000000000
+      internalID: 7310917209348816838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_7"
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 627
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab212e1fd4c51fa0800000000000000
+      internalID: -5830537679998997591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_8"
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 627
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2585ca9eef36030800000000000000
+      internalID: 3486910816087200478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_9"
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 627
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c97e9b6d595d550800000000000000
+      internalID: 6185014412737748000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_10"
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 627
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9df7fa221bf9f0e0800000000000000
+      internalID: -2235479684563862116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_11"
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 627
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8f32f3fa51b1250800000000000000
+      internalID: 5916346377904060594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_12"
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 627
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb06b5cd17eec0150800000000000000
+      internalID: 5840304989588381887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_13"
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 627
+        width: 186
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6cc2c78bfedd7f0800000000000000
+      internalID: -586048800851966267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_14"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 512
+        width: 184
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fb1ccfda80abcb0800000000000000
+      internalID: -4847552505547997289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_15"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 511
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895485f20bb4f80d0800000000000000
+      internalID: -3418430372070275688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_16"
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 511
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02cceb8b02f6a2e0800000000000000
+      internalID: -2114736843597757940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_17"
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 511
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a448395c342c3290800000000000000
+      internalID: -7909407003955936093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_18"
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 511
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1bc1521ce6db7e0800000000000000
+      internalID: -1748119304519503446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_19"
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 511
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffacbe6d1bbb5710800000000000000
+      internalID: 1683144620839317490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_20"
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 511
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000a657c591dc9ed0800000000000000
+      internalID: -2405817659698012160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_21"
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 511
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44448dbb88ab2c5d0800000000000000
+      internalID: -3043665301719202748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_22"
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 511
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa025c539b33b380800000000000000
+      internalID: -8956749729814672645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_23"
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 511
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b42e21cfd33d380800000000000000
+      internalID: -8947739881797170352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_24"
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 511
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e81102078624ff00800000000000000
+      internalID: 1149586166182385893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_25"
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 511
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2421d5850f653f00800000000000000
+      internalID: 1095904153845179437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_26"
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 511
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09d18f0364a2b2b0800000000000000
+      internalID: -5570209043734996724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_27"
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 511
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0120df2ec4135bb20800000000000000
+      internalID: 3149477720711037456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_28"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 394
+        width: 233
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca311e576e637a40800000000000000
+      internalID: 5364752971367267019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_29"
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 392
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ac591bb173cda10800000000000000
+      internalID: 1935482531945499190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_30"
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 392
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa1372d70c264900800000000000000
+      internalID: 668270006818249384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_31"
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 392
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0a946b7384fcb70800000000000000
+      internalID: 8921428790962921695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_32"
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 392
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9176ff5362939e920800000000000000
+      internalID: 3020007861406099225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_33"
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 392
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc57b12cac569e930800000000000000
+      internalID: 4172978451249853899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_34"
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 392
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cb9d86d669629a0800000000000000
+      internalID: -6258149235530023922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_35"
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 392
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9431831378b62e50800000000000000
+      internalID: 6784312693068215450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_36"
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 392
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2de060cf0a01b30800000000000000
+      internalID: 4256078652158956194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_37"
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 392
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2dbf68458c18b50800000000000000
+      internalID: 6593771594814575278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_38"
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 392
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7f506c7bff55e00800000000000000
+      internalID: 1033012854317774811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_39"
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 392
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7943b1599ecb720800000000000000
+      internalID: 2863420289716623303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_40"
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 390
+        width: 178
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7199b65395a09fa0800000000000000
+      internalID: -5795950668192050820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_41"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 279
+        width: 264
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c982c5deedf6e80800000000000000
+      internalID: -8183076886874121119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_42"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 277
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c847463c81dc490800000000000000
+      internalID: -7724490558387483636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_43"
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 277
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb925345b04c9630800000000000000
+      internalID: 3935091321677716408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_44"
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 277
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5f6322f03a897d0800000000000000
+      internalID: -2911397873701161488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_45"
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 277
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197fca7adec0f06a0800000000000000
+      internalID: -6480947123902941295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_46"
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 277
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21e4e36586c92450800000000000000
+      internalID: 6064596649439977771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_47"
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 277
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438053b011a17e310800000000000000
+      internalID: 1434143666845583412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_48"
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 277
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c88b904f1d83caa0800000000000000
+      internalID: -6141910301435787070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_49"
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 277
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b5548c970b0e330800000000000000
+      internalID: 3738181727815031707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_50"
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 277
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3841f04eb71273c0800000000000000
+      internalID: -4363398983067809729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_51"
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 277
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2dd65cfa749c180800000000000000
+      internalID: -9094659152240848146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_52"
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 279
+        width: 265
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a497ab03e0dc35b10800000000000000
+      internalID: 1969142922921802058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_53"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 166
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628e7d7fc5a3e9920800000000000000
+      internalID: 2998898572844853286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_54"
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 166
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79653fc5227b50970800000000000000
+      internalID: 8720577611689055895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_55"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 166
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe652f1e8559db000800000000000000
+      internalID: 53362979578730223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_56"
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 166
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc44121724ccd6c50800000000000000
+      internalID: 6660204009688745163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_57"
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 165
+        width: 898
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6430f10e0e91190800000000000000
+      internalID: -7991108810594629961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_58"
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 166
+        width: 250
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bc8c52da453ce10800000000000000
+      internalID: 2216708544236407679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014computer keyboard transparent_8957497_59"
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 166
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea781279dd94edd0800000000000000
+      internalID: -2457665939389777175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_0": -3417132080247621443
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_1": -6972993446513822640
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_10": -2235479684563862116
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_11": 5916346377904060594
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_12": 5840304989588381887
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_13": -586048800851966267
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_14": -4847552505547997289
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_15": -3418430372070275688
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_16": -2114736843597757940
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_17": -7909407003955936093
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_18": -1748119304519503446
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_19": 1683144620839317490
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_2": -6441218486896680230
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_20": -2405817659698012160
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_21": -3043665301719202748
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_22": -8956749729814672645
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_23": -8947739881797170352
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_24": 1149586166182385893
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_25": 1095904153845179437
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_26": -5570209043734996724
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_27": 3149477720711037456
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_28": 5364752971367267019
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_29": 1935482531945499190
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_3": 556769680486410391
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_30": 668270006818249384
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_31": 8921428790962921695
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_32": 3020007861406099225
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_33": 4172978451249853899
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_34": -6258149235530023922
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_35": 6784312693068215450
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_36": 4256078652158956194
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_37": 6593771594814575278
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_38": 1033012854317774811
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_39": 2863420289716623303
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_4": 8170441246329757639
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_40": -5795950668192050820
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_41": -8183076886874121119
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_42": -7724490558387483636
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_43": 3935091321677716408
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_44": -2911397873701161488
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_45": -6480947123902941295
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_46": 6064596649439977771
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_47": 1434143666845583412
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_48": -6141910301435787070
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_49": 3738181727815031707
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_5": 3206060063549717491
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_50": -4363398983067809729
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_51": -9094659152240848146
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_52": 1969142922921802058
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_53": 2998898572844853286
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_54": 8720577611689055895
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_55": 53362979578730223
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_56": 6660204009688745163
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_57": -7991108810594629961
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_58": 2216708544236407679
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_59": -2457665939389777175
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_6": 7310917209348816838
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_7": -5830537679998997591
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_8": 3486910816087200478
+      "\u2014Pngtree\u2014computer keyboard transparent_8957497_9": 6185014412737748000
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

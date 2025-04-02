@@ -129,8 +129,8 @@ TextureImporter:
         y: 24
         width: 24
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,8 +151,8 @@ TextureImporter:
         y: 24
         width: 24
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -173,8 +173,8 @@ TextureImporter:
         y: 0
         width: 24
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -195,8 +195,8 @@ TextureImporter:
         y: 0
         width: 24
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,6 +205,28 @@ TextureImporter:
       bones: []
       spriteID: d40bb725223559544ae6afac118aa948
       internalID: 4098066387916411498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ACgarRight_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a070ca1503f430489f104fa1ec28e16
+      internalID: -2097295235
       vertices: []
       indices: 
       edges: []
@@ -227,6 +249,7 @@ TextureImporter:
       ACgarRight_1: 4040546031357632510
       ACgarRight_2: -6438805695271869259
       ACgarRight_3: 4098066387916411498
+      ACgarRight_4: -2097295235
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

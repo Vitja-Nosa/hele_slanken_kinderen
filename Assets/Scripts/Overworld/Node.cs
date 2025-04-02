@@ -6,7 +6,19 @@ public class Node : MonoBehaviour
 {
     public string levelName;
     public Transform transform;
-    public bool locked = false;
+
+    public bool _locked;
+    public bool locked
+    {
+
+        get => _locked;
+        set
+        {
+            _locked = value;
+            ToggleLock();
+        }
+    }
+
     public Vector2 position { get; private set; }
     public Dictionary<Node, List<Vector2>> paths { get; private set; }
 
@@ -46,5 +58,15 @@ public class Node : MonoBehaviour
             }
         }
         return null; 
+    }
+
+    private void OnValidate()
+    {
+        ToggleLock();
+    }
+
+    public void ToggleLock()
+    {
+        this.GetComponent<SpriteRenderer>().enabled = _locked;
     }
 }
