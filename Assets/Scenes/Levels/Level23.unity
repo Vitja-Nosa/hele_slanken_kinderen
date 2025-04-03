@@ -1674,25 +1674,25 @@ PrefabInstance:
     - {fileID: 109396931557895245, guid: 262933ad77ece26419864096e9e87b27, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7406906030891116442, guid: 262933ad77ece26419864096e9e87b27, type: 3}
-      insertIndex: -1
+      insertIndex: 3
       addedObject: {fileID: 937306159}
     - targetCorrespondingSourceObject: {fileID: 7406906030891116442, guid: 262933ad77ece26419864096e9e87b27, type: 3}
-      insertIndex: -1
+      insertIndex: 4
       addedObject: {fileID: 1948156996}
     - targetCorrespondingSourceObject: {fileID: 7406906030891116442, guid: 262933ad77ece26419864096e9e87b27, type: 3}
-      insertIndex: -1
+      insertIndex: 5
       addedObject: {fileID: 10137922}
     - targetCorrespondingSourceObject: {fileID: 7406906030891116442, guid: 262933ad77ece26419864096e9e87b27, type: 3}
-      insertIndex: -1
+      insertIndex: 6
       addedObject: {fileID: 1070217254}
     - targetCorrespondingSourceObject: {fileID: 7406906030891116442, guid: 262933ad77ece26419864096e9e87b27, type: 3}
-      insertIndex: -1
+      insertIndex: 7
       addedObject: {fileID: 56554953}
     - targetCorrespondingSourceObject: {fileID: 7406906030891116442, guid: 262933ad77ece26419864096e9e87b27, type: 3}
-      insertIndex: -1
+      insertIndex: 8
       addedObject: {fileID: 422500081}
     - targetCorrespondingSourceObject: {fileID: 7406906030891116442, guid: 262933ad77ece26419864096e9e87b27, type: 3}
-      insertIndex: -1
+      insertIndex: 9
       addedObject: {fileID: 1277415177}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 262933ad77ece26419864096e9e87b27, type: 3}

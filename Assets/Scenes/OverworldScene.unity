@@ -111205,7 +111205,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -115501,7 +115501,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 5148848007095864043, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
       - {fileID: -149634680, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 58, y: 17, z: 0}
@@ -115528,7 +115528,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 5148848007095864043, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
       - {fileID: -149634680, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 17, y: 21, z: 0}
@@ -115546,7 +115546,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 5148848007095864043, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
       - {fileID: -149634680, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 62, y: 23, z: 0}
@@ -115564,7 +115564,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 5148848007095864043, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
       - {fileID: -149634680, guid: 4b8fd01bb345b274f83f560ddad144e2, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 43, y: 26, z: 0}

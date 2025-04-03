@@ -7,9 +7,9 @@ using System;
 public class TMP_SpriteDropdown : MonoBehaviour
 {
     public TMP_Dropdown dropdown;
-    public List<Sprite> Stickers; // Lijst met stickers (sprites)
-    public Image dropdownButtonImage; // De Image van de dropdown-knop
-    public Sprite emptySprite; // Optioneel: een "leeg" plaatje als standaard
+    public List<Sprite> Stickers; 
+    public Image dropdownButtonImage; 
+    public Sprite emptySprite;
     public TMP_InputField Content;
     public DiaryEntryApiClient diaryEntryApiClient;
     public DiaryEntriesLoader diaryEntriesLoader;
@@ -32,8 +32,8 @@ public class TMP_SpriteDropdown : MonoBehaviour
 
         // Eerste optie: "LEEG"
         TMP_Dropdown.OptionData emptyOption = new TMP_Dropdown.OptionData();
-        emptyOption.text = "LEEG"; // Tekst tonen in dropdown
-        emptyOption.image = emptySprite; // Geen afbeelding of een lege afbeelding
+        emptyOption.text = "LEEG"; 
+        emptyOption.image = emptySprite; 
         dropdown.options.Add(emptyOption);
 
         // Toevoegen van stickers als opties

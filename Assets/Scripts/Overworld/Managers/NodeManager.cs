@@ -36,9 +36,27 @@ public class NodeManager : MonoBehaviour
             allNodes[completedLevel].locked = false;
             tileManager.NodeCompleted(allNodes[completedLevel - 1]);
         }
+
+        // Set the not selected path locked
+        //if (StatusManager.Instance.treatmentPath == "B")
+        //{
+        //    for (int i = 6; i <= 11; i++)
+        //    {
+        //        allNodes[i].locked = true;
+        //    }
+        //}
+        //else if (StatusManager.Instance.treatmentPath == "A")
+        //{
+        //    allNodes.RemoveRange(11, 6);
+        //    for (int i = 11; i <= 17; i++)
+        //    {
+        //        allNodes[i].locked = true;
+        //    }
+        //}
+
         currentNode = allNodes[StatusManager.Instance.currentNodeIndex];
         playerMovement.SetupPlayer();
-        
+
     }
 
     public List<Vector2> MakePath(List<KeyValuePair<Vector2, int>> template)
@@ -52,13 +70,13 @@ public class NodeManager : MonoBehaviour
                 path.Add(direction.Key);
             }
         }
-        
+
         return path;
     }
 
     public void ConnectNodes()
     {
-       // Connection level 1 -> level 2
+        // Connection level 1 -> level 2
         allNodes[0].Connect(allNodes[1], MakePath(new List<KeyValuePair<Vector2, int>>()
         {
             new KeyValuePair<Vector2, int>( Vector2.right, 7 ),
@@ -94,7 +112,8 @@ public class NodeManager : MonoBehaviour
             new KeyValuePair<Vector2, int>( Vector2.up, 4 ),
         }));
 
-        if (StatusManager.Instance.treatmentPath == "A") { 
+        if (StatusManager.Instance.treatmentPath == "A")
+        {
             // >>>>>>>> ROUTE A >>>>>>>>>>>>>>>>
 
             // Connection level 6 -> level 7
@@ -155,7 +174,7 @@ public class NodeManager : MonoBehaviour
             {
                 new KeyValuePair<Vector2, int>( Vector2.right, 9 ),
             }));
-            
+
             // Connection level 12 -> level 13
             allNodes[11].Connect(allNodes[12], MakePath(new List<KeyValuePair<Vector2, int>>()
             {
