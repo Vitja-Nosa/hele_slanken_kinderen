@@ -1,3 +1,3 @@
-# lu1_dikkekinderen_frontend
+# lu1_groepsproject
 
 lu1 project
